@@ -20,7 +20,7 @@
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"A function is a code that you write to perform actions you define to acheive the desired result.  A method is using predefined actions to acheive the desired result."
 
 /**
  * QUESTION #2 -
@@ -34,7 +34,7 @@ for (let i = 0; i = timesToLoop; i++) {
     console.log('I am looping!');
 }
 
-""
+"i = timesToLoop"
 
 /**
  * QUESTION #3 -
@@ -44,7 +44,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"Boolean"
 
 /**
  * QUESTION #4 -
@@ -53,7 +53,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"To be able to repeat a section of code upon demand as many times as desired"
 
 /**
  * QUESTION #5 -
@@ -67,7 +67,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"C"
 
 /**
  * QUESTION #6 -
@@ -76,7 +76,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"Document Object Model"
 
 /**
  * QUESTION #7 -
@@ -95,7 +95,7 @@ function testQuestionSeven() {
     }
 }
 
-""
+"No!"
 
 /**
  * QUESTION #8 -
@@ -105,7 +105,7 @@ function testQuestionSeven() {
  * Hint: Think of their general TYPE....
  */
 
-""
+"They are all numbers."
 
 /**
  * QUESTION #9 -
@@ -114,7 +114,7 @@ function testQuestionSeven() {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"To separate your code from the global scope.  Helps to prevent variables from being overwritten."
 
 /**
  * QUESTION #10 -
@@ -135,7 +135,8 @@ switch (value) {
         console.log('We are out of food...');
 };
 
-""
+"Infinte loop"
+"If value = CODEM9, answer = all of the console logs"
 
 /**
  * QUESTION #11 -
@@ -145,8 +146,16 @@ switch (value) {
  */
 
 function createGrid(width, height) {
-
+ let width = document.createElement('.square');
+ let height = document.createElement('.row');
+  for (let i = 0; i < width; i++) {
+   document.appendChild(width);
+};
+  for (let j = 0; j < height; i++) {
+  document.appendChild(height);
+  };
 }
+createGrid(10, 10);
 
 /**
  * QUESTION #12 -
@@ -155,7 +164,7 @@ function createGrid(width, height) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"A global variable is one present on the entire workspace, a local variable is only present on the local workspace, can be overwritten by a global variable and vice versa."
 
 /**
  * QUESTION #13 - (EXTRA CREDIT!)
@@ -169,4 +178,4 @@ function createGrid(width, height) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"A"
