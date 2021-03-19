@@ -20,7 +20,7 @@
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-"A function is a code that you write to perform actions you define to acheive the desired result.  A method is using predefined actions to acheive the desired result."
+"A function is a reuseable chunk of code which can produce a value, manipulate parts of an application, for other functions to begin execution, etc.  A method is a chunck of code that is related to an object passed down with the parent object through your application.  can be used to manipulate/change things inside of the parent object or class"
 
 /**
  * QUESTION #2 -
@@ -44,7 +44,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-"Boolean"
+"Ternary"
 
 /**
  * QUESTION #4 -
@@ -135,8 +135,7 @@ switch (value) {
         console.log('We are out of food...');
 };
 
-"Infinte loop"
-"If value = CODEM9, answer = all of the console logs"
+"We are out of food..."
 
 /**
  * QUESTION #11 -
@@ -145,17 +144,22 @@ switch (value) {
  * Answer Type: Function
  */
 
-function createGrid(width, height) {
- let width = document.createElement('.square');
- let height = document.createElement('.row');
-  for (let i = 0; i < width; i++) {
-   document.appendChild(width);
-};
-  for (let j = 0; j < height; i++) {
-  document.appendChild(height);
-  };
+function makeGrid (height, width) {
+    let container = document.querySelector('.container');
+    for (let i = 0; i < height; i++) {
+        let row = document.createElement('div');
+        row.classList.add(row);
+    
+        container.appendChild(row);
+    }
+    for (let j = 0; j <width; j++) {
+        let square = document.createElement('div');
+        square.classList.add(sqaure);
+
+        row.appendChild(square);
+    }
 }
-createGrid(10, 10);
+makeGrid(15, 15);
 
 /**
  * QUESTION #12 -
@@ -164,7 +168,7 @@ createGrid(10, 10);
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-"A global variable is one present on the entire workspace, a local variable is only present on the local workspace, can be overwritten by a global variable and vice versa."
+"A global variable is delared outside of a function and is accessable by any function within the workspace.  A local variable is declared inside of a function and is only accessable within that function."
 
 /**
  * QUESTION #13 - (EXTRA CREDIT!)
